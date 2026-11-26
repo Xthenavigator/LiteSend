@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.legacy.localsend.app-merged_res-5:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\neoAI\\workspace1\\localsend-lite\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,-1,9",
+                        "startColumns": "4,-1,4",
+                        "startOffsets": "55,-1,269",
+                        "endLines": "2,-1,15",
+                        "endColumns": "45,-1,30",
+                        "endOffsets": "96,-1,577"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,144",
+                        "endLines": "2,3,10",
+                        "endColumns": "45,42,30",
+                        "endOffsets": "96,139,452"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\neoAI\\workspace1\\.gradle-home\\daemon\\7.6.3\\io.legacy.localsend.app-merged_res-5:\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\neoAI\\workspace1\\localsend-lite\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,107",
+                        "endColumns": "51,42",
+                        "endOffsets": "102,145"
+                    }
+                }
+            ]
+        }
+    ]
+}

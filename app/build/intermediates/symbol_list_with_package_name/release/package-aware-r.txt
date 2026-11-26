@@ -1,0 +1,5 @@
+io.legacy.localsend
+mipmap ic_launcher
+string app_name
+string pick_file
+string settings_footer

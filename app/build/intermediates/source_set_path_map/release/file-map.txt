@@ -1,0 +1,8 @@
+io.legacy.localsend.app-pngs-0 C:\neoAI\workspace1\localsend-lite\app\build\generated\res\pngs\release
+io.legacy.localsend.app-resValues-1 C:\neoAI\workspace1\localsend-lite\app\build\generated\res\resValues\release
+io.legacy.localsend.app-rs-2 C:\neoAI\workspace1\localsend-lite\app\build\generated\res\rs\release
+io.legacy.localsend.app-packageReleaseResources-3 C:\neoAI\workspace1\localsend-lite\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+io.legacy.localsend.app-packageReleaseResources-4 C:\neoAI\workspace1\localsend-lite\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+io.legacy.localsend.app-merged_res-5 C:\neoAI\workspace1\localsend-lite\app\build\intermediates\merged_res\release
+io.legacy.localsend.app-main-6 C:\neoAI\workspace1\localsend-lite\app\src\main\res
+io.legacy.localsend.app-release-7 C:\neoAI\workspace1\localsend-lite\app\src\release\res

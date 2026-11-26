@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+def keystoreDir = rootProject.file('../keystore')
+def storePasswordValue = new File(keystoreDir, 'password.txt').text.trim()
+
+android {
+    compileSdk 34
+    buildToolsVersion '34.0.0'
+
+    defaultConfig {
+        applicationId "kitkat.lite.localsend_app"
+        minSdk 14
+        targetSdk 19
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+
+    signingConfigs {
+        legacy {
+            storeFile new File(keystoreDir, 'localsend-44.jks')
+            storePassword storePasswordValue
+            keyAlias 'localsend'
+            keyPassword storePasswordValue
+        }
+    }
+
+    buildTypes {
+        release {
+            // Dalvik is very sensitive to class merging; keep the code untouched.
+            minifyEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.legacy
+        }
+        debug {
+            signingConfig signingConfigs.legacy
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        // BouncyCastle ships signatures/manifests that must not end up in the APK.
+        exclude 'META-INF/*.SF'
+        exclude 'META-INF/*.DSA'
+        exclude 'META-INF/*.RSA'
+        exclude 'META-INF/versions/**'
+        exclude 'META-INF/BC1024KE.SF'
+        exclude 'META-INF/BC2048KE.SF'
+        exclude 'META-INF/BC1024KE.DSA'
+        exclude 'META-INF/BC2048KE.DSA'
+    }
+
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.multidex:multidex:2.0.1'
+}
+

@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kitkat.lite.localsend_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:7:5-74
+8        android:minSdkVersion="14"
+8-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:7:15-41
+9        android:targetSdkVersion="19" />
+9-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:7:42-71
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:9:5-67
+11-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:9:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:10:5-79
+12-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:11:5-76
+13-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:11:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+14-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:12:5-86
+14-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:12:22-83
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:13:5-68
+15-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:13:22-65
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:14:5-81
+16-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:14:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:15:5-80
+17-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:15:22-77
+18
+19    <application
+19-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:17:5-43:19
+20        android:name="io.legacy.localsend.App"
+20-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:18:9-28
+21        android:allowBackup="false"
+21-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:19:9-36
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:20:9-43
+24        android:label="@string/app_name"
+24-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:21:9-41
+25        android:usesCleartextTraffic="true" >
+25-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:22:9-44
+26        <activity
+26-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:24:9-33:20
+27            android:name="io.legacy.localsend.ui.MainActivity"
+27-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:25:13-44
+28            android:label="@string/app_name"
+28-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:26:13-45
+29            android:launchMode="singleTop"
+29-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:27:13-43
+30            android:windowSoftInputMode="adjustResize" >
+30-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:28:13-55
+31            <intent-filter>
+31-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:29:13-32:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:30:17-69
+32-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:30:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:31:17-77
+34-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:31:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:35:9-38:40
+38            android:name="io.legacy.localsend.ui.FilePickerActivity"
+38-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:36:13-50
+39            android:exported="false"
+39-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:38:13-37
+40            android:label="@string/pick_file" />
+40-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:37:13-46
+41
+42        <service
+42-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:40:9-42:40
+43            android:name="io.legacy.localsend.service.LocalSendService"
+43-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:41:13-53
+44            android:exported="false" />
+44-->C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:42:13-37
+45    </application>
+46
+47</manifest>

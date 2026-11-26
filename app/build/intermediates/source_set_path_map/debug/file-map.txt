@@ -1,0 +1,8 @@
+io.legacy.localsend.app-pngs-0 C:\neoAI\workspace1\localsend-lite\app\build\generated\res\pngs\debug
+io.legacy.localsend.app-resValues-1 C:\neoAI\workspace1\localsend-lite\app\build\generated\res\resValues\debug
+io.legacy.localsend.app-rs-2 C:\neoAI\workspace1\localsend-lite\app\build\generated\res\rs\debug
+io.legacy.localsend.app-packageDebugResources-3 C:\neoAI\workspace1\localsend-lite\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+io.legacy.localsend.app-packageDebugResources-4 C:\neoAI\workspace1\localsend-lite\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+io.legacy.localsend.app-merged_res-5 C:\neoAI\workspace1\localsend-lite\app\build\intermediates\merged_res\debug
+io.legacy.localsend.app-debug-6 C:\neoAI\workspace1\localsend-lite\app\src\debug\res
+io.legacy.localsend.app-main-7 C:\neoAI\workspace1\localsend-lite\app\src\main\res

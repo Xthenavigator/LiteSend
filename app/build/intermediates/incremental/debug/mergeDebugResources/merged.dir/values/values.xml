@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LiteSend</string>
+    <string name="pick_file">选择文件</string>
+    <string name="settings_footer">LiteSend 是为 Android 4.0–4.3（API 14–18）准备的原生 LocalSend 客户端，与官方 LocalSend 协议 v2/v2.1 互通。
+
+· 接收的文件保存在 /sdcard/LocalSend
+· 传输使用 TLS 1.2（P-256 ECDHE + AES-GCM），纯 Java 实现，速度约 0.4–1 MB/s
+· 发现不到设备：确认在同一 Wi-Fi、关闭路由器的 AP 隔离，或用「手动IP」
+· 首次启动会生成自签名证书，可能要等待几十秒
+· 对端若设置了 PIN，本客户端暂不支持</string>
+</resources>
