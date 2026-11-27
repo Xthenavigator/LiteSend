@@ -37,11 +37,13 @@ public class FilePickerActivity extends Activity {
     private File currentDir;
     private File rootDir;
     private boolean browseMode;
+    private boolean lightText = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle("选择文件");
+        lightText = new io.legacy.localsend.core.Settings(this).lightText();
         browseMode = "browse".equals(getIntent().getStringExtra("mode"));
         if (browseMode) setTitle("文件浏览");
 
@@ -51,7 +53,7 @@ public class FilePickerActivity extends Activity {
 
         pathView = new TextView(this);
         pathView.setTextSize(12);
-        pathView.setTextColor(new io.legacy.localsend.core.Settings(this).lightText() ? 0xFFBBBBBB : 0xFF666666);
+        pathView.setTextColor(lightText ? 0xFFBBBBBB : 0xFF666666);
         pathView.setPadding(0, 0, 0, 6);
         root.addView(pathView);
 
@@ -61,6 +63,7 @@ public class FilePickerActivity extends Activity {
             public View getView(int position, View convertView, ViewGroup parent) {
                 TextView view = (TextView) super.getView(position, convertView, parent);
                 view.setTextSize(16);
+                view.setTextColor(lightText ? 0xFFEEEEEE : 0xFF222222);
                 view.setPadding(8, 14, 8, 14);
                 return view;
             }
@@ -113,6 +116,7 @@ public class FilePickerActivity extends Activity {
         Button button = new Button(this);
         button.setText(text);
         button.setTextSize(14);
+        button.setTextColor(lightText ? 0xFFEEEEEE : 0xFF222222);
         button.setOnClickListener(listener);
         return button;
     }
@@ -194,6 +198,7 @@ public class FilePickerActivity extends Activity {
         goUp();
     }
 }
+
 
 
 

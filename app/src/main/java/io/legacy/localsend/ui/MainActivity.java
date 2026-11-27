@@ -354,27 +354,34 @@ public class MainActivity extends Activity implements Core.Listener {
         aliasInput = new EditText(this);
         aliasInput.setHint("设备别名");
         aliasInput.setTextSize(14);
+        aliasInput.setTextColor(colorPrimary);
+        aliasInput.setHintTextColor(colorSecondary);
         page.addView(aliasInput);
 
         portInput = new EditText(this);
         portInput.setHint("端口（默认 53317）");
         portInput.setInputType(InputType.TYPE_CLASS_NUMBER);
         portInput.setTextSize(14);
+        portInput.setTextColor(colorPrimary);
+        portInput.setHintTextColor(colorSecondary);
         page.addView(portInput);
 
         httpsBox = new CheckBox(this);
         httpsBox.setText("使用 HTTPS（TLS 1.2）");
         httpsBox.setTextSize(14);
+        httpsBox.setTextColor(colorPrimary);
         page.addView(httpsBox);
 
         systemPickerBox = new CheckBox(this);
         systemPickerBox.setText("优先使用系统文件管理器选文件（Android 4.4+）");
         systemPickerBox.setTextSize(14);
+        systemPickerBox.setTextColor(colorPrimary);
         page.addView(systemPickerBox);
 
         lightTextBox = new CheckBox(this);
         lightTextBox.setText("浅色文字（深色背景下更清楚）");
         lightTextBox.setTextSize(14);
+        lightTextBox.setTextColor(colorPrimary);
         page.addView(lightTextBox);
 
         Button save = button("保存并重启服务", new View.OnClickListener() {
@@ -433,6 +440,7 @@ public class MainActivity extends Activity implements Core.Listener {
         Button button = new Button(this);
         button.setText(text);
         button.setTextSize(14);
+        button.setTextColor(colorPrimary);
         button.setOnClickListener(listener);
         return button;
     }
@@ -1028,6 +1036,7 @@ public class MainActivity extends Activity implements Core.Listener {
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 }
+
 
 
 

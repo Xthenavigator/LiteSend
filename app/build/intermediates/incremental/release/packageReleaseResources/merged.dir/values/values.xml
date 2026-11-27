@@ -2,5 +2,5 @@
 <resources>
     <string name="app_name">LiteSend</string>
     <string name="pick_file">选择文件</string>
-    <string name="settings_footer">LiteSend 是为 Android 4.0–4.4准备的 LocalSend 兼容客户端，原生，与官方 LocalSend 协议 v2/v2.1 互通。\n\n· 接收的文件会保存在 /sdcard/Download/LiteSend\n· 纯 Java 实现，传输使用 TLS 1.2（P-256 ECDHE + AES-GCM），速度约 0.4–1 MB/s\n· 若发现不到设备：请确认在同一 Wi-Fi、关闭路由器的 AP 隔离，或使用「手动IP」\n· 首次启动会生成自签名证书，可能要等待一会\n· 本应用暂不支持对端设置 PIN。\n\n非常感谢DeepSeek-V4.1-Flash，实现了本应用，真的非常感谢\n此版本构建于20261125\nby xnavi</string>
+    <string name="settings_footer">本项目在github开源\nLiteSend 是为 Android 4.0–4.4准备的 LocalSend 兼容客户端，原生，与官方 LocalSend 协议 v2/v2.1 互通。\n\n· 接收的文件会保存在 /sdcard/Download/LiteSend\n· 纯 Java 实现，传输使用 TLS 1.2（P-256 ECDHE + AES-GCM），速度约 0.4–1 MB/s\n· 若发现不到设备：请确认在同一 Wi-Fi、关闭路由器的 AP 隔离，或使用「手动IP」\n· 首次启动会生成自签名证书，可能要等待一会\n· 本应用暂不支持对端设置 PIN。\n\n非常感谢DeepSeek-V4.1-Flash，实现了本应用的大部分功能\n此版本构建于20261127\nby xnavi</string>
 </resources>

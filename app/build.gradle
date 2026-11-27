@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 
-def keystoreDir = rootProject.file('../keystore')
+def keystoreDir = rootProject.file('../keystorerelease')
 def storePasswordValue = new File(keystoreDir, 'password.txt').text.trim()
 
 android {
@@ -11,8 +11,8 @@ android {
         applicationId "kitkat.lite.localsend_app"
         minSdk 14
         targetSdk 19
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
         multiDexEnabled true
     }
 
@@ -20,7 +20,7 @@ android {
         legacy {
             storeFile new File(keystoreDir, 'localsend-44.jks')
             storePassword storePasswordValue
-            keyAlias 'localsend'
+            keyAlias 'kitkatbuild'
             keyPassword storePasswordValue
         }
     }

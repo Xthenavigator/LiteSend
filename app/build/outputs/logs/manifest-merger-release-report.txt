@@ -4,7 +4,7 @@ ADDED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:2
 INJECTED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:2:1-45:12
 INJECTED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:2:1-45:12
 INJECTED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:2:1-45:12
-MERGED from [androidx.multidex:multidex:2.0.1] C:\neoAI\workspace1\.gradle-home\caches\transforms-3\f7ad421bfd23ad8216b7e606e35455bb\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\usrx\.gradle\caches\transforms-3\f7ad421bfd23ad8216b7e606e35455bb\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 INJECTED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:2:1-45:12
 INJECTED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:2:1-45:12
 INJECTED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:2:1-45:12
@@ -26,8 +26,8 @@ uses-sdk
 ADDED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:7:5-74
 INJECTED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:7:5-74
 INJECTED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:7:5-74
-MERGED from [androidx.multidex:multidex:2.0.1] C:\neoAI\workspace1\.gradle-home\caches\transforms-3\f7ad421bfd23ad8216b7e606e35455bb\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.1] C:\neoAI\workspace1\.gradle-home\caches\transforms-3\f7ad421bfd23ad8216b7e606e35455bb\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\usrx\.gradle\caches\transforms-3\f7ad421bfd23ad8216b7e606e35455bb\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\usrx\.gradle\caches\transforms-3\f7ad421bfd23ad8216b7e606e35455bb\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
 INJECTED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:7:5-74
 INJECTED from C:\neoAI\workspace1\localsend-lite\app\src\main\AndroidManifest.xml:7:5-74
 	android:targetSdkVersion

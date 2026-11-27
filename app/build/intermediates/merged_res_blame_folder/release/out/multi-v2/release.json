@@ -9,15 +9,15 @@
                         "startLines": "-1,-1,9",
                         "startColumns": "-1,-1,4",
                         "startOffsets": "-1,-1,282",
-                        "endColumns": "-1,-1,385",
-                        "endOffsets": "-1,-1,663"
+                        "endColumns": "-1,-1,398",
+                        "endOffsets": "-1,-1,676"
                     },
                     "to": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
                         "startOffsets": "55,101,144",
-                        "endColumns": "45,42,385",
-                        "endOffsets": "96,139,525"
+                        "endColumns": "45,42,398",
+                        "endOffsets": "96,139,538"
                     }
                 }
             ]
@@ -40,6 +40,28 @@
                         "startOffsets": "55,101,144",
                         "endColumns": "45,42,318",
                         "endOffsets": "96,139,458"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\usrx\\.gradle\\daemon\\7.6.3\\io.legacy.localsend.app-merged_res-5:\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\neoAI\\workspace1\\localsend-lite\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,9",
+                        "startColumns": "-1,-1,4",
+                        "startOffsets": "-1,-1,282",
+                        "endColumns": "-1,-1,385",
+                        "endOffsets": "-1,-1,663"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,144",
+                        "endColumns": "45,42,385",
+                        "endOffsets": "96,139,525"
                     }
                 }
             ]
